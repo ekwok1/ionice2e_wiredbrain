@@ -16,7 +16,7 @@ export class HomePage {
   logPage: string;
 
   constructor(public navCtrl: NavController) {
-    this.logPage = 'loginPage';
+    this.logPage = 'LoginPage';
   }
 
 }
