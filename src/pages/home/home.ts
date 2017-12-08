@@ -13,8 +13,10 @@ export class HomePage {
     { title: 'Locations', pic: 'assets/img/cafe2.jpg', pushPage: 'LocationsPage' }
   ]
 
-  constructor(public navCtrl: NavController) {
+  logPage: string;
 
+  constructor(public navCtrl: NavController) {
+    this.logPage = 'loginPage';
   }
 
 }
